@@ -1,0 +1,171 @@
+
+body {
+  transition: 200ms ease;
+}
+.cornerimg{
+  border-radius: 50px 0 50px 0;
+}
+
+.row{
+  padding: 100px;
+}
+.rank{
+align-items: center;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.new1{
+color: olive;
+  padding-right: 20px;
+}
+
+.me:hover{
+  color: black;
+  border-radius: 5px;
+  border-radius: 50px;
+}
+#footer{
+background-color: #e3f2fd;
+}
+.takeright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactform{
+  padding-left:150px;
+  padding-right: 150px;
+
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.copyright{
+  font-weight: bold;
+  color: darkslategray;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: beige;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: beige;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: silver;
+  text-decoration: underline;
+}
+h1{
+  text-align: center;
+}
+.breadcrumb{
+  position: relative;
+}
+.adjusth1a{
+  color: beige;
+  position: relative;
+  left: 500px;
+  top: 20px;display: inline-block;
+  position: relative;
+  top: 2px;
+  left: 10px;
+}
+.adjusth1c{
+  color: beige;
+  position: relative;
+  left: 400px;
+  top: 20px;
+  position: relative;
+  left:10px;
+  top: 20px;
+}
+.horizontalimg{
+  display: inline-block;
+  position: absolute;
+  right: 1px;
+  z-index: 0;
+
+}
+.aligncenter{
+  text-align: center;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+background: linear-gradient(124deg, #ff2400, #e81d1d , #e3e81d, lightgreen, beige , #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
