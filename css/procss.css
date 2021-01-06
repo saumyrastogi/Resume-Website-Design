@@ -5,7 +5,26 @@ body {
 .cornerimg{
   border-radius: 50px 0 50px 0;
 }
-
+.navbar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 100;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    /* position: absolute; */
+    position: static;
+}
+.dropdown-menu{
+  z-index: 100;
+}
+.dropdown-item{
+  z-index: 100;
+}
+.nav-item{
+  z-index: 100;
+}
 .row{
   padding: 100px;
 }
@@ -132,8 +151,12 @@ h1{
 .aligncenter{
   text-align: center;
 }
-
+.contactform{
+  position:relative;
+  top: 20px;
+}
 .wrapper {
+  z-index: -1;
   height: 100%;
   width: 100%;
   left:0;
@@ -169,3 +192,8 @@ background-size: 1800% 1800%;
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
+.googlemap{
+  position: relative;
+  top: 50px;
+}
+
