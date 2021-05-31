@@ -1,4 +1,4 @@
-# Saumya-2
+# Resume-Website-Design
 
 This a website created using front end technologies like HTML , CSS , Bootstrap , js and jquery.
 It has code base animations , grid system , carousel , breadcumber , forms with validations , google map location and a lot more !
